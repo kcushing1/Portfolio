@@ -1,0 +1,11 @@
+## HTML
+
+footer code credit to:
+Miller, David. "Flexbox Sticky Footer". Start Bootstrap. Online <https://startbootstrap.com/snippets/sticky-footer-flexbox/>
+
+
+## CSS
+.img-name credit to:
+W3 Schools. "How TO - Position Text Over an Image." <https://www.w3schools.com/howto/howto_css_image_text.asp>
+
+## JavaScript

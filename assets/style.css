@@ -1,0 +1,18 @@
+/*see cited.txt*/
+.mts-img {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.img-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.greyblue {
+  background-color: #96c9e3;
+}
