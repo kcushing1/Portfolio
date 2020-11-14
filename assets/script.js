@@ -1,3 +1,4 @@
+//icons for the skills I have
 const skillLogoArr = [
   {
     skill: "html",
@@ -33,6 +34,7 @@ const skillLogoArr = [
   },
 ];
 
+//append logos to screen
 function appendSkillLogos() {
   for (let i = 0; i < skillLogoArr.length; i++) {
     $("." + skillLogoArr[i].skill).append(`
@@ -46,3 +48,15 @@ function appendSkillLogos() {
 } //end appendSkillLogos
 
 appendSkillLogos();
+
+//on hover, change image of myself to a different image
+$("#main-img").hover(
+  function () {
+    $("#main-img").removeAttr();
+    $("#main-img").attr("src", "./assets/images/imgA.jpg");
+  },
+  function () {
+    $("#main-img").removeAttr(),
+      $("#main-img").attr("src", "./assets/images/img_main.jpg");
+  }
+);
