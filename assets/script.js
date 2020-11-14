@@ -53,10 +53,10 @@ appendSkillLogos();
 $("#main-img").hover(
   function () {
     $("#main-img").removeAttr();
-    $("#main-img").attr("src", "./assets/images/imgA.jpg");
+    $("#main-img").attr("src", "./assets/images/imgA.JPG");
   },
   function () {
     $("#main-img").removeAttr(),
-      $("#main-img").attr("src", "./assets/images/img_main.jpg");
+      $("#main-img").attr("src", "./assets/images/img_main.JPG");
   }
 );
