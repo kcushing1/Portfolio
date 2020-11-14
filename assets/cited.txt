@@ -3,6 +3,9 @@
 footer code credit to:
 Miller, David. "Flexbox Sticky Footer". Start Bootstrap. Online <https://startbootstrap.com/snippets/sticky-footer-flexbox/>
 
+favicon code credit to:
+favicon.io. "Emoji Favicons > Sunrise Over Mountains". https://favicon.io/emoji-favicons/sunrise-over-mountains
+
 
 ## CSS
 .img-name credit to:
