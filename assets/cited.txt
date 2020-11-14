@@ -12,7 +12,9 @@ W3 Schools. "How TO - Position Text Over an Image." <https://www.w3schools.com/h
 
 
 ## Images
-HTML and CSS logo: Wikimedia. https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg
+HTML logo: cleanpng.com https://www.cleanpng.com/png-html-web-design-scalable-vector-graphics-world-wid-610209/
+
+CSS logo: cleanpng.com https://www.cleanpng.com/png-css3-cascading-style-sheets-logo-html-1538811/
 
 JavaScript logo: cleanpng.com  https://www.cleanpng.com/png-javascript-logo-html-clip-art-javascript-logo-5675248/
 
