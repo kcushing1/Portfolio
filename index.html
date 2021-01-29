@@ -22,12 +22,6 @@
 <!--responsive media tag from bootstrap-->
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!--animate.css-->
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-/>
-
 <!--give credit where credit is due!-->
 <link type="text/plain" rel="author" href="./assets/cited.txt">
 
@@ -35,8 +29,28 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
 </head>
 <body>
+  <div class="container-fluid bg-dark">
+    <div class="row">
+
+    <!--aside, with contact-->
+      <div class="col-md-2">
+        <div class="row">
+          <div class="col">
+          
+              <p class="text-light">kasey.cushing@gmail.com</p>
+              <p class="text-light">(603) 686 - 9739</p>
+              <p class="text-light">she/her/hers</p>
+              <p>
+                <a class="text-light" href="./assets/ResumeNov2020LinkedIn.pdf" target="_blank">Resume</a>
+              </p>
+            
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-10">
    <!--navbar-->
-   <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <nav class="row navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
  
     <a class="navbar-brand" href="#page-top">Kasey Cushing</a>
 
@@ -57,15 +71,16 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         </li>
       </ul>
     </div>
-  </nav>
-
+        </nav>
+      
+      
   <!--the content-->
-  <div class="container overflow-hidden mx-auto bg-dark" id="page-top">
+    <div class="row" id="page-top">
     
       <div class="mts-img">
         <img src="assets/images/mts.png" alt="Franconia Notch Ridge from North Kinsman Mt" style="width:100%">
         <div class="img-name">
-          <h1 class="animate__animated animate__pulse animate__repeat-2">Kasey Cushing</h1>
+          <h1>Kasey Cushing</h1>
           <p>Web Developer</p>
         </div>
         
@@ -174,24 +189,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
             
           </div>
 
-          <div class="row">
-            <div class="col">
-              <div class="row text-center">
-                <p class="col text-light">kasey.cushing@gmail.com</p>
-              </div>
-              <div class="row text-center">
-                <p class="col text-light">(603) 686 - 9739</p>
-              </div>
-              <div class="row text-center">
-                <p class="col text-light">she/her/hers</p>
-              </div>
-              <div class="row">
-                <p class="col text-center">
-                  <a class="text-light" href="./assets/ResumeNov2020LinkedIn.pdf" target="_blank">Resume</a>
-                </p>
-              </div>
-            </div>
-          </div>
+          
          
         </div> 
       </div>
@@ -204,11 +202,15 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
 
   <!--end of page containter div is below-->  
+    </div>
   </div>
-  
+    </div>
+  </div>
 <!--see workssited.txt-->
-<footer id="sticky-footer" class="py-4 bg-dark fixed-bottom">
-</footer>
+    <footer id="sticky-footer" class="py-4 bg-dark fixed-bottom">
+    </footer>
+
+  </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="./assets/script.js"></script>
