@@ -33,22 +33,73 @@
     <div class="row">
 
     <!--aside, with contact-->
-      <div class="col-md-2">
+      <div class="col-md-2 side-buttons">
         <div class="row">
-          <div class="col">
+          <div class="col mt-4 fixed-top">
           
-              <p class="text-light">kasey.cushing@gmail.com</p>
-              <p class="text-light">(603) 686 - 9739</p>
-              <p class="text-light">she/her/hers</p>
-              <p>
-                <a class="text-light" href="./assets/ResumeNov2020LinkedIn.pdf" target="_blank">Resume</a>
-              </p>
+            <!-- Button for email-->
+            <div class="row">
+              <div class="col">
+                <button type="button" class="btn softgrey" data-toggle="modal" data-target="#contactemail">
+                  Email
+                </button>
+  
+                <!-- Modal for email-->
+                <div class="modal fade" id="contactemail" tabindex="-1" role="dialog">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">kasey.cushing@gmail.com</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </br>
+            <!--Button for phone-->
+            <div class="row">
+              <div class="col">
+                <button type="button" class="btn softgrey" data-toggle="modal" data-target="#contactphone">
+                  Phone
+                </button>
+  
+                <!-- Modal for phone-->
+                <div class="modal fade" id="contactphone" tabindex="-1" role="dialog" >
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">(603) 686 - 9739</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </br>
+          <!--contact buttons for resume, github & linkedin-->
+            <a type="button" class="btn softgrey" href="./assets/ResumeNov2020LinkedIn.pdf" target="_blank">Resume</a>
+          </br>
+          </br>
+            <a type="button" class="btn softgrey" href="https://github.com/kcushing1" target="_blank">GitHub</a>
+          </br>
+          </br>
+            <a type="button" class="btn softgrey" href="https://www.linkedin.com/in/kasey-cushing-053bbab1/" target="_blank">LinkedIn</a>
+              
             
           </div>
         </div>
       </div>
     
-      <div class="col-10">
+      <div class="col-md-10">
    <!--navbar-->
         <nav class="row navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
  
@@ -76,133 +127,187 @@
       
   <!--the content-->
     <div class="row" id="page-top">
+      <div class="col">
     
-      <div class="mts-img">
-        <img src="assets/images/mts.png" alt="Franconia Notch Ridge from North Kinsman Mt" style="width:100%">
+      <div class="mts-img row">
+        <div class="col">
+          <img src="assets/images/mts.png" alt="Franconia Notch Ridge from North Kinsman Mt" style="width:100%">
         <div class="img-name">
           <h1>Kasey Cushing</h1>
           <p>Web Developer</p>
         </div>
+        </div>
         
       </div>
 
-    <!--a little bit about me-->
-    <div class="row greyblue" id="about-me">
-      <div class="col-md-5 card greyblue border-0 ml-6 align-self-center">
-        <div class="card-body img-rounded">
-          <img class="card-img-top" id="main-img" src="./assets/images/img_main.JPG" alt="Kasey">
-      </div>
-      </div>
-      <div class="col-md-6 card greyblue mr-3 border-0 text-center align-self-center">
-        <div class="card-body">
-          <h3>Hello There!</h3>
-          <p>An energetic professional with a <span class="seehere">passion for people</span>, learning, and new experiences. Currently a Team Lead in healthcare administration but hoping to transition into <span class="seehere">full-stack web development</span>. Learning a plethora of new skills such as JavaScript and responsive web design with <span class="seehere">UNH Coding Bootcamp</span>. Goal-and-detail-oriented, adaptable, communicative, and skilled at tackling and prioritizing multiple projects while maintaining a <span class="seehere">positive attitude</span>. Excited to problem solve, develop apps, mend bugs, and <span class="seehere">improve services</span> to users across the web. Looking for an organization that will challenge me while encouraging my personal and professional <span class="seehere">growth</span>.</p>
-          <br>
-          <p>
-            <a class="seehere" href="./assets/ResumeNov2020LinkedIn.pdf" target="_blank">Resume</a>
-          </p>
+      <!--a little bit about me-->
+      <div class="row greyblue" id="about-me">
+        <div class="col-md-5 card greyblue border-0 ml-6 align-self-center">
+          <div class="card-body img-rounded">
+            <img class="card-img-top" id="main-img" src="./assets/images/img_main.JPG" alt="Kasey">
         </div>
-      </div>
-    </div>
-
-    <!--Portfolio examples-->
-    <div class="row justify-content-center bg-dark py-3 jumbotron" id="portfolio">
-      <div class="col my-10">
-        <div class="card h-100" style="width: 18rem;">
-          <div class="card-body softgrey">
-            <h6 class="card-title text-center">Password Generator</h>
-            <img class="card-img-top" src="./assets/images/password-generator-demo.gif" alt="password generator">
-            <p class="card-text text-center">a quick tool to develop a randomly generated password of chosen length and character type</p>
-            <div class="text-center">
-              <a href="https://github.com/kcushing1/Password-Generator" class="card-link" target="_blank">GitHub</a>
-              <a href="https://kcushing1.github.io/Password-Generator/" class="card-link" target="_blank">See the Site</a>
-            </div>
+        </div>
+        <div class="col-md-6 card greyblue mr-3 border-0 text-center align-self-center">
+          <div class="card-body">
+            <h3>Hello There!</h3>
+            <p>An energetic professional with a <span class="seehere">passion for people</span>, learning, and new experiences. Currently a Team Lead in healthcare administration but hoping to transition into <span class="seehere">full-stack web development</span>. Learning a plethora of new skills such as JavaScript and responsive web design with <span class="seehere">UNH Coding Bootcamp</span>. Goal-and-detail-oriented, adaptable, communicative, and skilled at tackling and prioritizing multiple projects while maintaining a <span class="seehere">positive attitude</span>. Excited to problem solve, develop apps, mend bugs, and <span class="seehere">improve services</span> to users across the web. Looking for an organization that will challenge me while encouraging my personal and professional <span class="seehere">growth</span>.</p>
+            <br>
+            <p>
+              <a class="seehere" href="./assets/ResumeNov2020LinkedIn.pdf" target="_blank">Resume</a>
+            </p>
           </div>
         </div>
       </div>
 
-      <div class="col">
-        <div class="card h-100" style="width: 18rem;">
-          <div class="card-body softgrey">
-            <img class="card-img-top" src="./assets/images/workday-scheduler-demo.gif" alt="workday scheduler">
-            <p class="card-text text-center">a functional single-day-by-hour planner, colorcoded to reflect real time</p>
-            <div class="text-center">
-              <a href="https://github.com/kcushing1/Workday-Schedule-Page" class="card-link" target="_blank">GitHub</a>
-              <a href="https://kcushing1.github.io/Workday-Schedule-Page/" class="card-link" target="_blank">See the Site</a>
+      <!--Portfolio examples-->
+      <div class="row justify-content-center bg-dark py-3 jumbotron" id="portfolio">
+        <div class="col my-10">
+          <div class="card h-100" style="width: 18rem;">
+            <div class="card-body softgrey">
+              <h6 class="card-title text-center">Password Generator</h>
+              <img class="card-img-top" src="./assets/images/password-generator-demo.gif" alt="password generator">
+              <p class="card-text text-center">a quick tool to develop a randomly generated password of chosen length and character type</p>
+              <div class="text-center">
+                <a href="https://github.com/kcushing1/Password-Generator" class="card-link" target="_blank">GitHub</a>
+                <a href="https://kcushing1.github.io/Password-Generator/" class="card-link" target="_blank">See the Site</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="col">
-        <div class="card h-100" style="width: 18rem;">
-          <div class="card-body softgrey">
-            <h6 class="card-title text-center">TIme Capsule</h>
-            <img class="card-img-top" src="./assets/images/functionality-time-capsule.gif" alt="password generator">
-            <p class="card-text">search by date to see weather and currency in 5 world cities, and 3 NYT articles</p>
-            <div class="text-center">
-              <a href="https://github.com/kcushing1/Time-Capsule" class="card-link" target="_blank">GitHub</a>
-              <a href="https://kcushing1.github.io/Time-Capsule/" class="card-link" target="_blank">See the Site</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--skills I have (and will further develop)-->
-    <div class="row greyblue px-6 jumbotron">
-      <div class="row justify-content-center">
-        <div class="col-md-3 html"></div>
-        <div class="col-md-3 css"></div>
-        <div class="col-md-3 js"></div>
-        <div class="col-md-3 bootstrap"></div>
-        <div class="col-md-3 api"></div>
-        <div class="col-md-3 moment"></div>
-        <div class="col-md-3 jquery"></div>
-        <div class="col-md-3 node"></div>
-      </div>
-    </div>
-
-    <!--contact me-->
-    <section class="row" id="contact-me">
-      <div class="col">
-
-        <div class-="row"> 
-          <div class="col">
-            <div class="pb-2 mt-4">
-              <h3 class="text-light text-center">Contact</h3>
-            </div>
-          </div>
-      
-        
-      <!--contact form-->
-      <div class="row">
         <div class="col">
-          <div class="row justify-content-center">
+          <div class="card h-100" style="width: 18rem;">
+            <div class="card-body softgrey">
+              <img class="card-img-top" src="./assets/images/workday-scheduler-demo.gif" alt="workday scheduler">
+              <p class="card-text text-center">a functional single-day-by-hour planner, colorcoded to reflect real time</p>
+              <div class="text-center">
+                <a href="https://github.com/kcushing1/Workday-Schedule-Page" class="card-link" target="_blank">GitHub</a>
+                <a href="https://kcushing1.github.io/Workday-Schedule-Page/" class="card-link" target="_blank">See the Site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100" style="width: 18rem;">
+            <div class="card-body softgrey">
+              <h6 class="card-title text-center">TIme Capsule</h>
+              <img class="card-img-top" src="./assets/images/functionality-time-capsule.gif" alt="password generator">
+              <p class="card-text">search by date to see weather and currency in 5 world cities, and 3 NYT articles</p>
+              <div class="text-center">
+                <a href="https://github.com/kcushing1/Time-Capsule" class="card-link" target="_blank">GitHub</a>
+                <a href="https://kcushing1.github.io/Time-Capsule/" class="card-link" target="_blank">See the Site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--skills I have (and will further develop)-->
+      <div class="row greyblue px-6 jumbotron">
+        <div class="row justify-content-center">
+          <div class="col-md-3 html"></div>
+          <div class="col-md-3 css"></div>
+          <div class="col-md-3 js"></div>
+          <div class="col-md-3 bootstrap"></div>
+          <div class="col-md-3 api"></div>
+          <div class="col-md-3 moment"></div>
+          <div class="col-md-3 jquery"></div>
+          <div class="col-md-3 node"></div>
+        </div>
+      </div>
+
+      <!--contact me-->
+      <section class="row" id="contact-me">
+        <div class="col">
+
+          <div class-="row"> 
+            <div class="col">
+              <div class="pb-2 mt-2">
+                <h3 class="text-light text-center">Contact</h3>
+              </div>
+            </div>
+          </div>
           
-              <h5 class="col text-center">
-                <a class="text-light" href="https://github.com/kcushing1" target="_blank">GitHub</a>
-              </h5>
-              <h5 class="col text-center">
-                <a class="text-light" href="https://www.linkedin.com/in/kasey-cushing-053bbab1/" target="_blank">LinkedIn</a>
-              </h5>
+          <!--contact form-->
+          <div class="row">
+            <div class="col ">
+              <div class="row justify-content-center">
+              
+                  <h5 class="col text-center">
+                    <a class="text-light" href="https://github.com/kcushing1" target="_blank">GitHub</a>
+                  </h5>
+                  <h5 class="col text-center">
+                    <a class="text-light" href="https://www.linkedin.com/in/kasey-cushing-053bbab1/" target="_blank">LinkedIn</a>
+                  </h5>
+                
+              </div>
+
+              <div class="row justify-content-center">
+                <div class="row ">
+                <div class="col ">
+                  <div class="row text-center">
+                    <p class="col text-light">kasey.cushing@gmail.com</p>
+                  </div>
+                  <div class="row text-center">
+                    <p class="col text-light">(603) 686 - 9739</p>
+                  </div>
+                  <div class="row text-center">
+                    <p class="col text-light">she/her/hers</p>
+                  </div>
+                  <div class="row">
+                    <p class="col text-center">
+                      <a class="text-light" href="./assets/ResumeNov2020LinkedIn.pdf" target="_blank">Resume</a>
+                    </p>
+                  </div>
+                </div>
+                </div>
+              </div>         
+            
+            </div> 
+          </div>
+
+        </br>
+
+        <!--fun facts modal-->
+          <div class="row">
+            <div class="col text-center">
+              <button type="button" class="btn greyblue"  data-toggle="modal" data-target="#funfacts">
+                Fun Facts About Kasey
+              </button>
+            </div>
+
+            <div class="modal fade" id="funfacts" tabindex="-1" role="dialog">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <ul>
+                      <li>She's read 39 of the Pulitzer Prize Fiction books and aims to read them all</li>
+                      <li>She rarely loses a tube of chapstick</li>
+                      <li>She loves to knit</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
             
           </div>
 
-          
-         
-        </div> 
-      </div>
-
-    </section>
-
-    <br>
-    <br>
-    <br>
+      
+        </div>
+      </section>
+  
+      <br>
+      <br>
+      <br>
 
 
   <!--end of page containter div is below-->  
     </div>
+  </div>
   </div>
     </div>
   </div>
