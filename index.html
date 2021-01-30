@@ -11,16 +11,13 @@
 <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
 <link rel="manifest" href="./assets/images/favicon/site.webmanifest">
 
-   <!-- Bootstrap - CSS only -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <!-- Bootstrap 4 - CSS & JS Bundle-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
-<!-- Bootstrap - JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-<!--responsive media tag from bootstrap-->
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- devicon.dev for icons in technical skills section -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
 
 <!--give credit where credit is due!-->
 <link type="text/plain" rel="author" href="./assets/cited.txt">
@@ -29,61 +26,16 @@
 
 </head>
 <body>
+
   <div class="container-fluid bg-dark">
     <div class="row">
 
-    <!--aside, with contact-->
+    <!--aside, with contact buttons-->
       <div class="col-md-2 side-buttons">
         <div class="row">
           <div class="col mt-4 fixed-top">
           
-            <!-- Button for email-->
-            <div class="row">
-              <div class="col">
-                <button type="button" class="btn softgrey" data-toggle="modal" data-target="#contactemail">
-                  Email
-                </button>
-  
-                <!-- Modal for email-->
-                <div class="modal fade" id="contactemail" tabindex="-1" role="dialog">
-                  <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title">kasey.cushing@gmail.com</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
-            </div>
-          </br>
-            <!--Button for phone-->
-            <div class="row">
-              <div class="col">
-                <button type="button" class="btn softgrey" data-toggle="modal" data-target="#contactphone">
-                  Phone
-                </button>
-  
-                <!-- Modal for phone-->
-                <div class="modal fade" id="contactphone" tabindex="-1" role="dialog" >
-                  <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title">(603) 686 - 9739</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
           </br>
           <!--contact buttons for resume, github & linkedin-->
             <a type="button" class="btn softgrey" href="./assets/ResumeNov2020LinkedIn.pdf" target="_blank">Resume</a>
@@ -98,6 +50,8 @@
           </div>
         </div>
       </div>
+
+         
     
       <div class="col-md-10">
    <!--navbar-->
@@ -203,17 +157,23 @@
         </div>
       </div>
 
-      <!--skills I have (and will further develop)-->
+      <!--technical skills I have (and will further develop)-->
       <div class="row greyblue px-6 jumbotron">
-        <div class="row justify-content-center">
-          <div class="col-md-3 html"></div>
-          <div class="col-md-3 css"></div>
-          <div class="col-md-3 js"></div>
-          <div class="col-md-3 bootstrap"></div>
-          <div class="col-md-3 api"></div>
-          <div class="col-md-3 moment"></div>
-          <div class="col-md-3 jquery"></div>
-          <div class="col-md-3 node"></div>
+        <div class="row justify-content-center devicons">
+          <i class="devicon-html5-plain-wordmark"></i>
+          <i class="devicon-css3-plain-wordmark"></i>
+          <i class="devicon-bootstrap-plain-wordmark"></i>
+          <i class="devicon-javascript-plain"></i>
+          <i class="devicon-jquery-plain-wordmark"></i>
+          <i class="devicon-nodejs-plain-wordmark"></i>
+          <i class="devicon-npm-original-wordmark"></i>
+          <i class="devicon-express-original-wordmark"></i>
+          <i class="devicon-sequelize-plain-wordmark"></i>
+          <i class="devicon-mysql-plain-wordmark"></i>
+          <i class="devicon-mongodb-plain-wordmark"></i>
+          <i class="devicon-github-original-wordmark colored"></i>
+          <i class="devicon-heroku-plain-wordmark"></i>
+          <i class="devicon-slack-plain-wordmark colored"></i>
         </div>
       </div>
 
@@ -229,7 +189,7 @@
             </div>
           </div>
           
-          <!--contact form-->
+          <!--contact section-->
           <div class="row">
             <div class="col ">
               <div class="row justify-content-center">
@@ -246,6 +206,11 @@
               <div class="row justify-content-center">
                 <div class="row ">
                 <div class="col ">
+                  <div class="row">
+                    <p class="col text-center">
+                      <a class="text-light" href="./assets/ResumeNov2020LinkedIn.pdf" target="_blank">Resume</a>
+                    </p>
+                  </div>
                   <div class="row text-center">
                     <p class="col text-light">kasey.cushing@gmail.com</p>
                   </div>
@@ -255,10 +220,8 @@
                   <div class="row text-center">
                     <p class="col text-light">she/her/hers</p>
                   </div>
-                  <div class="row">
-                    <p class="col text-center">
-                      <a class="text-light" href="./assets/ResumeNov2020LinkedIn.pdf" target="_blank">Resume</a>
-                    </p>
+                  <div class="row text-center">
+                    <p class="col text-light">Stratham, NH</p>
                   </div>
                 </div>
                 </div>
@@ -273,22 +236,27 @@
           <div class="row">
             <div class="col text-center">
               <button type="button" class="btn greyblue"  data-toggle="modal" data-target="#funfacts">
-                Fun Facts About Kasey
+                Fun Facts About Me
               </button>
             </div>
 
             <div class="modal fade" id="funfacts" tabindex="-1" role="dialog">
-              <div class="modal-dialog" role="document">
+              <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                   <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
-                    <ul>
-                      <li>She's read 39 of the Pulitzer Prize Fiction books and aims to read them all</li>
-                      <li>She rarely loses a tube of chapstick</li>
-                      <li>She loves to knit</li>
-                    </ul>
+                  </br>
+                  <p class="text-center">
+                    I've read 39 of the 93 Pulitzer Prize Fiction books and aim to read them all.
+                  </p>
+                  <p class="text-center">
+                    I rarely lose tubes of chapstick.
+                  </p>
+                  <p class="text-center">
+                    I love to knit.
+                  </p>
                   </div>
                 </div>
               </div>
@@ -311,6 +279,9 @@
   </div>
     </div>
   </div>
+
+  
+
 <!--see workssited.txt-->
     <footer id="sticky-footer" class="py-4 bg-dark fixed-bottom">
     </footer>

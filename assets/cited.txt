@@ -15,21 +15,7 @@ W3 Schools. "How TO - Position Text Over an Image." <https://www.w3schools.com/h
 
 
 ## Images
-HTML logo: cleanpng.com https://www.cleanpng.com/png-html-web-design-scalable-vector-graphics-world-wid-610209/
-
-CSS logo: cleanpng.com https://www.cleanpng.com/png-css3-cascading-style-sheets-logo-html-1538811/
-
-JavaScript logo: cleanpng.com  https://www.cleanpng.com/png-javascript-logo-html-clip-art-javascript-logo-5675248/
-
-Bootstrap logo: Wikimedia. https://commons.wikimedia.org/wiki/File:Bootstrap_logo.svg
-
-JQuery logo: cleanpng.com. https://www.cleanpng.com/png-1st-century-logo-brand-electric-motor-duoweb-6381767/download-png.html
-
-API logo: cleanpng.com https://www.cleanpng.com/png-application-programming-interface-logo-image-compu-6346548/download-png.html
-
-moment.js logo: stickpng.com https://www.stickpng.com/img/icons-logos-emojis/tech-companies/moment-js-logo
-
-node.js logo: cleanpng.com https://www.cleanpng.com/png-node-js-javascript-web-application-express-js-comp-1541181/download-png.html
+all logos from https://devicon.dev/
 
 
 
